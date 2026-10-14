@@ -1,0 +1,17 @@
+Tigroeb is a points league for friends who share one phone. Each tipster aims an exact match score on a 4 by 4 lattice, seals that cell before kickoff, then posts the final goals so the standings can award a bullseye, a near, or a flat.
+
+• Week board with a fixture carousel that never leaves home
+• 4 by 4 lattice of exact scores from 0 0 through 3 3
+• Aim a cell, Seal it before kickoff, Peel it before kickoff, Post the final goals after kickoff
+• A second Aim without Peel keeps the first cell and shows A skew was recorded.
+• Void when kickoff day arrives while the line is still OPEN or AIMED
+• Points: bullseye 9, near 3, flat 0, shown on POSTED POINTS and Standings
+• One posted final per fixture, scored for every tipster who sealed
+• Add a fixture with Home side, Away side, and Kickoff daykey
+• Switch among existing tipsters and rename them
+• Reset this round and Reset all data
+• Replay onboarding
+• Contact
+• Burst on a bullseye
+
+There is no account and no purse; only points on this device.

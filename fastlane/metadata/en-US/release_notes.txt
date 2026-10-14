@@ -1,0 +1,17 @@
+Version 1.0 is the first release of Tigroeb, a points league for friends who share one phone.
+
+• Week board as home, with Fixtures, Standings, and Settings as sheets
+• 4 by 4 lattice from 0 0 through 3 3
+• Aim a cell, Seal it before kickoff, Peel it before kickoff, Post the final goals after kickoff
+• Skew when a second Aim is taken without Peel
+• Void when kickoff day arrives while the line is still OPEN or AIMED
+• Points: bullseye 9, near 3, flat 0
+• Add a fixture with Home side, Away side, and Kickoff daykey
+• Switch among existing tipsters and rename them
+• Reset this round and Reset all data
+• Replay onboarding
+• Contact
+• Burst on a bullseye
+• Light haptic on a successful Aim, Seal, Post, or Peel
+
+There is no account and no purse. Data stays on this device.

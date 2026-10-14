@@ -1,0 +1,83 @@
+name: Graticule
+packages:
+  Alamofire:
+    url: https://github.com/ymvmj7dsyy-stack/Alamofire
+    revision: 3ea8e93ec37a3ae5f255afb529ef20f438dd1903
+options:
+  bundleIdPrefix: com.graticule
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.2"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Graticule:
+    type: application
+    platform: iOS
+    sources:
+      - path: Graticule
+    resources:
+      - path: PrivacyInfo.xcprivacy
+    dependencies:
+      - package: Alamofire
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.graticule.lattice
+        PRODUCT_NAME: Graticule
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_CFBundleDisplayName: Tigroeb
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        INFOPLIST_KEY_UIUserInterfaceStyle: Light
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.sports
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        CODE_SIGN_STYLE: Automatic
+    info:
+      path: Graticule/Scene.plist
+      properties:
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+                UISceneStoryboardFile: Board
+  GraticuleTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: GraticuleTests
+    dependencies:
+      - target: Graticule
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.graticule.lattice.tests
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "6.2"
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Graticule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Graticule"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  Graticule:
+    build:
+      targets:
+        Graticule: all
+        GraticuleTests: [test]
+    test:
+      targets:
+        - GraticuleTests

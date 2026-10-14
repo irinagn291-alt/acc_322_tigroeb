@@ -1,0 +1,21 @@
+This app requests no permissions. No permission prompt appears, and there is no usage-description string.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Tigroeb is a points league for friends who share one phone. Each tipster aims an exact match score on a 4 by 4 lattice, seals that cell before kickoff, then posts the final goals so the standings can award a bullseye, a near, or a flat. There is no account and no purse; only points on this device.
+
+No credentials or demo account are needed. A cold launch shows the system launch screen with no words. The week board is the home screen. If onboarding has not been finished, a full-screen onboarding covers the board and cannot be swiped away. Three pages share a page indicator, a full-width Continue, and Skip. Continue stays Continue on every page. Page 1 headline: Aim an exact score. Line: Friends on this phone share one lattice. Points stay on the standings. Page 2 headline: Seal the cell before kickoff. Line: A second aim without peel records a skew and keeps the cell. Page 3 headline: Post the final goals. Line: An exact cell is a bullseye at 9. The right winner on another cell is near at 3. A wrong winner is flat at 0. Continue on page 1 or 2 moves to the next page. Continue on page 3, or Skip on any page, dismisses onboarding and shows the board. If no tipster exists yet, finishing writes one tipster named You. Onboarding does not add fixtures.
+
+On a physical device the first board after onboarding is empty. Headline: The board has no fixtures yet. Line: Add a match, aim a score, and seal it before kickoff. Tap Add a fixture to open the Fixtures sheet. Enter Home side and Away side. Kickoff daykey is prefilled with today plus seven days. A daykey of today or earlier voids an unsealed line, title KICKOFF VOID, caption Kickoff passed before a seal, so this fixture is void. Tap Add a fixture, then Done. Tap a lattice square, then Aim so OPEN moves to AIMED. If no square is selected the caption is Choose a square on the lattice, then aim. Tap Seal before kickoff. Title CELL SEALED. Caption: This cell is sealed. Post waits until the kickoff day. Post stays dim until kickoff day. Home goals and Away goals appear when it is time to post. Peel sits under the lattice. Bottom chips Fixtures, Standings, and Settings open sheets. Done or a downward swipe closes a sheet. Standings lists rows in the form Ada Quinn holds 9 points. A tipster with nothing posted yet shows 0. Settings section Tipsters has one text field per name. Reset this round asks Reset this round? with Aimed cells, seals, and posted points on this device are deleted. Buttons: Cancel and Reset this round. Replay onboarding closes Settings and shows the three pages again. Reset all data asks Reset all data? with Tipsters, fixtures, and marks on this device are deleted. Buttons: Cancel and Reset all data.
+
+On Simulator, the first launch can skip onboarding and open a filled sample board. Tipsters: Ada Quinn, Ben Holt, and Cora Voss. The carousel opens on Milltown versus Harbor, aimed 2 to 1, Seal ready. Loom End versus Kiln Row is OPEN. Wharf Lane versus North Stair is sealed at 1 to 0. Gatehouse versus Low Market is posted 1 to 1. Ada holds 9, Ben holds 3, Cora holds 0. Use that board to tap Seal and to open Standings.
+
+Data stays on this device. Contact in Settings, section Data, opens the support page.
+
+Behaviour does not differ by region. Copy is English only. Kickoff is a calendar day in the device time zone, not a clock time.
+
+No licence or regulated-industry paperwork applies. The app has no purse; only points on this device.
+
+The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information.
+
+The app does not scan barcodes or QR codes.
